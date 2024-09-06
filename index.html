@@ -79,10 +79,18 @@
 							<header>
 								<h2><a style="font-weight: bold; color: #000000;">PARCH & POSEY SALES ANALYSIS<br /> IN TABLEAU</a></h2>
 							</header>
-							<a href="images/Parch & Porcey.JPG" class="image fit thumb">
+						<a href="images/Parch & Porcey.JPG" class="image fit thumb" onclick="showTitle(event)">
 								<img src="images/Parch & Porcey.JPG" alt="Parch & Posey Sales Analysis" />
 							</a>
-							<p style="text-align: justify; color: #000000;">Parch and Posey is a company that deals with the sale of different paper types. My insights highlight the company's performance and trends, offering valuable insights for strategic decisions.</p>
+							<h3 id="image-title" style="text-align: center; color: #000000; display: none;">Parch & Posey</h3>
+							
+							<script>
+								function showTitle(event) {
+									event.preventDefault(); // Prevent default behavior of link
+									document.getElementById('Parch & Posey').style.display = 'block';
+								}
+							</script>
+						<p style="text-align: justify; color: #000000;">Parch and Posey is a company that deals with the sale of different paper types. My insights highlight the company's performance and trends, offering valuable insights for strategic decisions.</p>
 							<ul class="actions" style="margin-top: 12px;">
 								<li><a href="https://public.tableau.com/app/profile/abosede.igharo/viz/ParchPoseySalesDashboard/Dashboard1" class="button">VIEW PROJECT</a></li>
 							</ul>
@@ -91,18 +99,38 @@
 						<header>
 							<h2><a style="font-weight: bold; color: #000000;">UNTOLD STORIES OF THE<br /> TITANIC TRAGEDY</a></h2>
 						</header>
-								<a href="images\Untold Story of the Titanic Tragedy.JPG" class="image fit thumb"><img src="images\Untold Story of the Titanic Tragedy.JPG" alt="" /></a>
+						<a href="images\Untold Story of the Titanic Tragedy.JPG" class="image fit thumb" onclick="showTitle(event)">
+									<img src="images\Untold Story of the Titanic Tragedy.JPG" alt="Untold Stories of Titanic Tragedy" />
+								</a>
+								<h3 id="image-title" style="text-align: center; color: #000000; display: none;">Titanic Passengers Survival Dashboard</h3>
+								
+								<script>
+									function showTitle(event) {
+										event.preventDefault(); // Prevent default behavior of link
+										document.getElementById('Parch & Posey').style.display = 'block';
+									}
+								</script>
 								<p style="text-align: justify; color: #000000;">The various interesting discoveries with regard to the passengers of the Titanic, bringing forth certain hidden patterns and stories, were brought to light in my journey of completion of the #30DaysDuckDBChallenge. I cleaned the data by removing inconsistencies that blind the truth. I underlined through insightful visualizations the trends and relationships that showed fresh perspectives on this tragedy.</p>
                 <ul class="actions" style="margin-top: 12px;">
               <li><a href="https://medium.com/@bosedeasaji/day-27-to-30-unveiling-the-untold-stories-of-the-titanic-tragedy-25464ca0bd34" class="button">VIEW STORY</a></li>
                       </ul>
 							</article>
-							</article>
+							
 							<article class="col-6 col-12-xsmall work-item">
 								<header>
 									<h2><a style="font-weight: bold; color: #000000;">WEATHER ANALYSIS</a></h2>
 								</header>
-								<a href="images\Weather pic.jpg" class="image fit thumb"><img src="images\Weather pic.jpg" alt="" /></a>
+								<a href="images\Weather pic.jpg" class="image fit thumb" onclick="showTitle(event)">
+									<img src="images\Weather pic.jpg" alt="images\Weather pic.jpg" />
+								</a>
+								<h3 id="image-title" style="text-align: center; color: #000000; display: none;"> Weather Analysis</h3>
+								
+								<script>
+									function showTitle(event) {
+										event.preventDefault(); // Prevent default behavior of link
+										document.getElementById('Parch & Posey').style.display = 'block';
+									}
+								</script>
 								<p style="text-align: justify; color: #000000;">This analysis focuses on examining historical weather data to extract insights and patterns. It includes analyzing temperature trends, precipitation patterns, wind speeds, and more.</p>
                        <ul class="actions" style="margin-top: 12px;">
                     <li><a href="https://github.com/Boseh-coder/Alfido-Tech-Internship/blob/d09e8145fe613b4340af4d3208a88187c2388628/Weather%20Data%20Analysis%20Codes.py" class="button">VIEW PROJECT</a></li>
@@ -112,7 +140,17 @@
 								<header>
 									<h2><a style="font-weight: bold; color: #000000;">UBER ANALYSIS IN PYTHON</a></h2>
 								</header>
-								<a href="images\uber-logo-map-1.jpg" class="image fit thumb"><img src="images\uber-logo-map-1.jpg" alt="" /></a>
+								<a href="images\uber-logo-map-1.jpg" class="image fit thumb" onclick="showTitle(event)">
+									<img src="images\uber-logo-map-1.jpg" alt="images\uber-logo-map-1.jpg" />
+								</a>
+								<h3 id="image-title" style="text-align: center; color: #000000; display: none;"> Uber Data Analysis</h3>
+								
+								<script>
+									function showTitle(event) {
+										event.preventDefault(); // Prevent default behavior of link
+										document.getElementById('Parch & Posey').style.display = 'block';
+									}
+								</script>
 							<p style="text-align: justify; color: #000000;"> This analysis involves data related to Uber rides, such as ride times, locations, and user ratings. I used the analysis to understand user behavior, driver patterns, and areas of high demand.</p>
 							<ul class="actions" style="margin-top: 12px;">
 							<li><a href="https://github.com/Boseh-coder/Alfido-Tech-Internship/blob/d09e8145fe613b4340af4d3208a88187c2388628/Uber%20Data%20Analysis%20codes.py" class="button">VIEW PROJECT</a></li>
