@@ -29,11 +29,18 @@
 				text-align: center; /* Optional, for centering text */
 			}
 	
-			.image.avatar img {
-				width: 150px; /* Adjust the width as needed */
-				height: 150px; /* Adjust the height as needed */
-				border-radius: 50%; /* Ensures the image remains circular */
-			}
+			.image.avatar {
+    display: flex;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically (if needed) */
+    text-align: center; /* Ensures text aligns center, if any */
+}
+
+.image.avatar img {
+    width: 600px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 80%; /* Ensures the image remains circular */
+}
 		</style>
 	</head>
 	
@@ -41,7 +48,7 @@
    <header id="header">
       <div class="inner">
         <a href="#" class="image avatar"><img src="images/My Prof pic.jpg" alt="Abosede Igharo" /></a>
-        <h1><strong>I am Abosede Igharo, a Data Analyst<br />
+        <h1><strong> Abosede Igharo, a Data Analyst<br />
             with a passion for turning datasets<br />
             into valuable insights</h1></strong>
          </div>
@@ -70,7 +77,7 @@
 					<div class="row">
 						<article class="col-6 col-12-xsmall work-item">
 							<header>
-								<h2><a style="font-weight: bold; color: #000000;">PARCH & POSEY SALES ANALYSIS<br />IN TABLEAU</a></h2>
+								<h2><a style="font-weight: bold; color: #000000;">PARCH & POSEY SALES ANALYSIS<br /> IN TABLEAU</a></h2>
 							</header>
 							<a href="images/Parch & Porcey.JPG" class="image fit thumb">
 								<img src="images/Parch & Porcey.JPG" alt="Parch & Posey Sales Analysis" />
@@ -82,7 +89,7 @@
 						</article>
 					<article class="col-6 col-12-xsmall work-item">
 						<header>
-							<h2><a style="font-weight: bold; color: #000000;">UNTOLD STORIES OF THE<br />TITANIC TRAGEDY</a></h2>
+							<h2><a style="font-weight: bold; color: #000000;">UNTOLD STORIES OF THE<br /> TITANIC TRAGEDY</a></h2>
 						</header>
 								<a href="images\Untold Story of the Titanic Tragedy.JPG" class="image fit thumb"><img src="images\Untold Story of the Titanic Tragedy.JPG" alt="" /></a>
 								<p style="text-align: justify; color: #000000;">The various interesting discoveries with regard to the passengers of the Titanic, bringing forth certain hidden patterns and stories, were brought to light in my journey of completion of the #30DaysDuckDBChallenge. I cleaned the data by removing inconsistencies that blind the truth. I underlined through insightful visualizations the trends and relationships that showed fresh perspectives on this tragedy.</p>
